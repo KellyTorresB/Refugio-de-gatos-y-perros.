@@ -1,0 +1,71 @@
+/*
+.header1 {background-color: aquamarine;
+margin: 50px;
+border: 100px;
+border-color: rgb(206, 170, 170);
+border-style: solid;
+}
+#Frijolito {background-color: blue;}
+*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');*/
+
+h3,h4,p,a{
+   font-family: 'Hind Madurai';
+}
+
+h1,h2{
+font-family: 'Kosugi Maru', sans-serif;
+}
+
+.header1{ font-size: 75px;
+margin-left: 90px;
+margin-right: 90px;
+color: rgb(0, 0, 0);
+text-shadow: #3abfe4 4px 3px 0px;}
+
+.header2{ font-size: 50px;
+    font-style: italic;
+	font-weight: 700;
+	margin: 0px;
+    color: #146c94;}
+
+
+.header3{ font-size: xx-large;
+    margin-left: 0px;
+    margin-right: 800px;
+    color: rgb(2, 0, 0);}
+
+
+.header4{ font-size: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-style:oblique;
+    color: rgb(1, 65, 126);
+   }
+
+.Parrafo{ font-size: Xx-large;
+    margin-left: 650px;
+    margin-right: 200px;
+    margin-top: 200px;
+    color: rgb(2, 0, 0);
+    }
+
+.Parrafo1{font-size: Xx-large;
+    margin-left: 650px;
+    margin-right: 200px;
+    color: rgb(2, 0, 0);}
+
+    .CUIDADOS{ font-size: xx-large;
+        margin-left: 0px;
+        margin-right: 0px;
+        color: rgb(2, 0, 0);
+        }
+
+    .objetfit > img{
+        float:left;
+        width: 500px;
+        height: 500px;
+        object-fit: none;
+        background-color: rgb(255, 255, 255);
+        border: 10px solid #126085;}
