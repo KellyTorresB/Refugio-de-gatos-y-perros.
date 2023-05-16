@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="./assets/style/style.css" rel="stylesheet">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Kosugi+Maru&display=swap');
+    </style>
+
+</head>
+<body>
+    <h1 class="header5">Formulario</h1>
+    <h2 class="header6">Datos del adoptante</h2>
+    <form>
+        <label class="Parrafo2">Fecha y hora</label>
+        <br>
+        <input type="datetime-local">
+        <br><br>
+        <label class="Parrafo2">Nombre(s)</label>
+        <input id="nombre" type="text" maxlength="5" placeholder="Escribe tu nombre aquí" requiered
+    ><!--value="Felipe maqueda" para dejar pre llenado-->
+        
+        <label class="Parrafo2">Apellido Paterno</label>
+        <input>
+        
+        <label class="Parrafo2">Apellido Materno</label>
+        <input>
+        <br><br>
+        <label class="Parrafo2">Email</label>
+        <input type="email">
+        <br>
+        <br>
+        <label class="Parrafo2">Numero</label>
+        <input type="number">
+        <br>
+        <br>
+        <label class="Parrafo2">Fecha de nacimiento:</label>
+        <input type="date">
+        <br>
+        <br>
+    </form>
+    <h2 class="header6">Datos del adoptado</h2>
+    <form>
+        <label class="Parrafo2">Nombre(s)</label>
+        <input id="nombre" type="text" maxlength="5" placeholder="Escribe el nombre aquí" requiered>
+        <br><br>
+        <label class="Parrafo2" > Cornfirmo que el nombre que puse arriba es correcto:</label>
+        <input type="checkbox">
+        <br><br>
+        <label class="Parrafo2">¿Qué tan jugueton esperas que sea?</label>
+        <input type="range">
+        <br><br><br>
+
+
+    <h2 class="header6">Compatibilidad</h2>
+    <p class="Parrafo2">Vamos que tan compatible resulta tu caracter con el animalito que deseas de compañero.</p>
+        
+    <form>
+        <label class="Parrafo2"> ¿Color favorito?</label>
+        <input type="color">
+        <br><br>
+        <label class="Parrafo2">Selecciona tu diponibilidad de juego y atención al día. </label>
+        <br>
+        <label class="Parrafo2">1:30 h o más</label>
+        <input name="adopta" type="radio">
+        <br>
+        <label class="Parrafo2"> 30 a 60 min </label>
+        <input name="adopta" type="radio">
+        <br>
+        <label class="Parrafo2"> 15 min o menos </label>
+        <input name="adopta" type="radio">
+        <br><br>
+        <label class="Parrafo2">¿A qué hora despiertas? </label>
+        <br>
+        <label class="Parrafo2">Hora</label>
+        <input type="time">
+        <br>
+        <br>
+        
+        <input class="Parrafo2" type="submit" value="Enviar solicitud">
+    </form>
+
+</body>
+</html>
